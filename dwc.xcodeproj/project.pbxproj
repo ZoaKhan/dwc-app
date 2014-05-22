@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DCBDCF5192EBEA5000BF60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCBDCF4192EBEA5000BF60E /* Foundation.framework */; };
+		2DCBDCF7192EBEA5000BF60E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCBDCF6192EBEA5000BF60E /* CoreGraphics.framework */; };
+		2DCBDCF9192EBEA5000BF60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCBDCF8192EBEA5000BF60E /* UIKit.framework */; };
+		2DCBDCFF192EBEA5000BF60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBDCFD192EBEA5000BF60E /* InfoPlist.strings */; };
+		2DCBDD01192EBEA5000BF60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBDD00192EBEA5000BF60E /* main.m */; };
+		2DCBDD05192EBEA5000BF60E /* dwcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBDD04192EBEA5000BF60E /* dwcAppDelegate.m */; };
+		2DCBDD08192EBEA5000BF60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBDD06192EBEA5000BF60E /* Main.storyboard */; };
+		2DCBDD0B192EBEA5000BF60E /* dwcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBDD0A192EBEA5000BF60E /* dwcViewController.m */; };
+		2DCBDD0D192EBEA5000BF60E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBDD0C192EBEA5000BF60E /* Images.xcassets */; };
+		2DCBDD14192EBEA5000BF60E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCBDD13192EBEA5000BF60E /* XCTest.framework */; };
+		2DCBDD15192EBEA5000BF60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCBDCF4192EBEA5000BF60E /* Foundation.framework */; };
+		2DCBDD16192EBEA5000BF60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCBDCF8192EBEA5000BF60E /* UIKit.framework */; };
+		2DCBDD1E192EBEA5000BF60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBDD1C192EBEA5000BF60E /* InfoPlist.strings */; };
+		2DCBDD20192EBEA5000BF60E /* dwcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBDD1F192EBEA5000BF60E /* dwcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DCBDD17192EBEA5000BF60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DCBDCE9192EBEA5000BF60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DCBDCF0192EBEA5000BF60E;
+			remoteInfo = dwc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DCBDCF1192EBEA5000BF60E /* dwc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dwc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCBDCF4192EBEA5000BF60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DCBDCF6192EBEA5000BF60E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DCBDCF8192EBEA5000BF60E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DCBDCFC192EBEA5000BF60E /* dwc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dwc-Info.plist"; sourceTree = "<group>"; };
+		2DCBDCFE192EBEA5000BF60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DCBDD00192EBEA5000BF60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DCBDD02192EBEA5000BF60E /* dwc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dwc-Prefix.pch"; sourceTree = "<group>"; };
+		2DCBDD03192EBEA5000BF60E /* dwcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dwcAppDelegate.h; sourceTree = "<group>"; };
+		2DCBDD04192EBEA5000BF60E /* dwcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dwcAppDelegate.m; sourceTree = "<group>"; };
+		2DCBDD07192EBEA5000BF60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DCBDD09192EBEA5000BF60E /* dwcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dwcViewController.h; sourceTree = "<group>"; };
+		2DCBDD0A192EBEA5000BF60E /* dwcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dwcViewController.m; sourceTree = "<group>"; };
+		2DCBDD0C192EBEA5000BF60E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DCBDD12192EBEA5000BF60E /* dwcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dwcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCBDD13192EBEA5000BF60E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2DCBDD1B192EBEA5000BF60E /* dwcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dwcTests-Info.plist"; sourceTree = "<group>"; };
+		2DCBDD1D192EBEA5000BF60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DCBDD1F192EBEA5000BF60E /* dwcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dwcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DCBDCEE192EBEA5000BF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCBDCF7192EBEA5000BF60E /* CoreGraphics.framework in Frameworks */,
+				2DCBDCF9192EBEA5000BF60E /* UIKit.framework in Frameworks */,
+				2DCBDCF5192EBEA5000BF60E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCBDD0F192EBEA5000BF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCBDD14192EBEA5000BF60E /* XCTest.framework in Frameworks */,
+				2DCBDD16192EBEA5000BF60E /* UIKit.framework in Frameworks */,
+				2DCBDD15192EBEA5000BF60E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DCBDCE8192EBEA5000BF60E = {
+			isa = PBXGroup;
+			children = (
+				2DCBDCFA192EBEA5000BF60E /* dwc */,
+				2DCBDD19192EBEA5000BF60E /* dwcTests */,
+				2DCBDCF3192EBEA5000BF60E /* Frameworks */,
+				2DCBDCF2192EBEA5000BF60E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DCBDCF2192EBEA5000BF60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBDCF1192EBEA5000BF60E /* dwc.app */,
+				2DCBDD12192EBEA5000BF60E /* dwcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DCBDCF3192EBEA5000BF60E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBDCF4192EBEA5000BF60E /* Foundation.framework */,
+				2DCBDCF6192EBEA5000BF60E /* CoreGraphics.framework */,
+				2DCBDCF8192EBEA5000BF60E /* UIKit.framework */,
+				2DCBDD13192EBEA5000BF60E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DCBDCFA192EBEA5000BF60E /* dwc */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBDD03192EBEA5000BF60E /* dwcAppDelegate.h */,
+				2DCBDD04192EBEA5000BF60E /* dwcAppDelegate.m */,
+				2DCBDD06192EBEA5000BF60E /* Main.storyboard */,
+				2DCBDD09192EBEA5000BF60E /* dwcViewController.h */,
+				2DCBDD0A192EBEA5000BF60E /* dwcViewController.m */,
+				2DCBDD0C192EBEA5000BF60E /* Images.xcassets */,
+				2DCBDCFB192EBEA5000BF60E /* Supporting Files */,
+			);
+			path = dwc;
+			sourceTree = "<group>";
+		};
+		2DCBDCFB192EBEA5000BF60E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBDCFC192EBEA5000BF60E /* dwc-Info.plist */,
+				2DCBDCFD192EBEA5000BF60E /* InfoPlist.strings */,
+				2DCBDD00192EBEA5000BF60E /* main.m */,
+				2DCBDD02192EBEA5000BF60E /* dwc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DCBDD19192EBEA5000BF60E /* dwcTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBDD1F192EBEA5000BF60E /* dwcTests.m */,
+				2DCBDD1A192EBEA5000BF60E /* Supporting Files */,
+			);
+			path = dwcTests;
+			sourceTree = "<group>";
+		};
+		2DCBDD1A192EBEA5000BF60E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBDD1B192EBEA5000BF60E /* dwcTests-Info.plist */,
+				2DCBDD1C192EBEA5000BF60E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DCBDCF0192EBEA5000BF60E /* dwc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCBDD23192EBEA5000BF60E /* Build configuration list for PBXNativeTarget "dwc" */;
+			buildPhases = (
+				2DCBDCED192EBEA5000BF60E /* Sources */,
+				2DCBDCEE192EBEA5000BF60E /* Frameworks */,
+				2DCBDCEF192EBEA5000BF60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dwc;
+			productName = dwc;
+			productReference = 2DCBDCF1192EBEA5000BF60E /* dwc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DCBDD11192EBEA5000BF60E /* dwcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCBDD26192EBEA5000BF60E /* Build configuration list for PBXNativeTarget "dwcTests" */;
+			buildPhases = (
+				2DCBDD0E192EBEA5000BF60E /* Sources */,
+				2DCBDD0F192EBEA5000BF60E /* Frameworks */,
+				2DCBDD10192EBEA5000BF60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DCBDD18192EBEA5000BF60E /* PBXTargetDependency */,
+			);
+			name = dwcTests;
+			productName = dwcTests;
+			productReference = 2DCBDD12192EBEA5000BF60E /* dwcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DCBDCE9192EBEA5000BF60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = dwc;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DWC;
+				TargetAttributes = {
+					2DCBDD11192EBEA5000BF60E = {
+						TestTargetID = 2DCBDCF0192EBEA5000BF60E;
+					};
+				};
+			};
+			buildConfigurationList = 2DCBDCEC192EBEA5000BF60E /* Build configuration list for PBXProject "dwc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DCBDCE8192EBEA5000BF60E;
+			productRefGroup = 2DCBDCF2192EBEA5000BF60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DCBDCF0192EBEA5000BF60E /* dwc */,
+				2DCBDD11192EBEA5000BF60E /* dwcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DCBDCEF192EBEA5000BF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCBDD0D192EBEA5000BF60E /* Images.xcassets in Resources */,
+				2DCBDCFF192EBEA5000BF60E /* InfoPlist.strings in Resources */,
+				2DCBDD08192EBEA5000BF60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCBDD10192EBEA5000BF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCBDD1E192EBEA5000BF60E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DCBDCED192EBEA5000BF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCBDD01192EBEA5000BF60E /* main.m in Sources */,
+				2DCBDD05192EBEA5000BF60E /* dwcAppDelegate.m in Sources */,
+				2DCBDD0B192EBEA5000BF60E /* dwcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCBDD0E192EBEA5000BF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCBDD20192EBEA5000BF60E /* dwcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DCBDD18192EBEA5000BF60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DCBDCF0192EBEA5000BF60E /* dwc */;
+			targetProxy = 2DCBDD17192EBEA5000BF60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DCBDCFD192EBEA5000BF60E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DCBDCFE192EBEA5000BF60E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DCBDD06192EBEA5000BF60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DCBDD07192EBEA5000BF60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DCBDD1C192EBEA5000BF60E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DCBDD1D192EBEA5000BF60E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DCBDD21192EBEA5000BF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DCBDD22192EBEA5000BF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DCBDD24192EBEA5000BF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dwc/dwc-Prefix.pch";
+				INFOPLIST_FILE = "dwc/dwc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DCBDD25192EBEA5000BF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dwc/dwc-Prefix.pch";
+				INFOPLIST_FILE = "dwc/dwc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2DCBDD27192EBEA5000BF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dwc.app/dwc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dwc/dwc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dwcTests/dwcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2DCBDD28192EBEA5000BF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dwc.app/dwc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dwc/dwc-Prefix.pch";
+				INFOPLIST_FILE = "dwcTests/dwcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DCBDCEC192EBEA5000BF60E /* Build configuration list for PBXProject "dwc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCBDD21192EBEA5000BF60E /* Debug */,
+				2DCBDD22192EBEA5000BF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DCBDD23192EBEA5000BF60E /* Build configuration list for PBXNativeTarget "dwc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCBDD24192EBEA5000BF60E /* Debug */,
+				2DCBDD25192EBEA5000BF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DCBDD26192EBEA5000BF60E /* Build configuration list for PBXNativeTarget "dwcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCBDD27192EBEA5000BF60E /* Debug */,
+				2DCBDD28192EBEA5000BF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DCBDCE9192EBEA5000BF60E /* Project object */;
+}
