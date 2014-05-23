@@ -10,4 +10,13 @@
 
 @interface dwcViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
+
+
+
+
 @end
